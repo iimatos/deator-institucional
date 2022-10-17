@@ -1,4 +1,11 @@
 @media only screen and (max-width: 1024px) {
+  /* SLIDES  */
+
+  .slide-cover p {
+    width: 70%;
+  }
+
+  /* SOBRE */
   .home-sobre-flex {
     flex-direction: column-reverse;
   }
@@ -13,5 +20,131 @@
   }
   .home-sobre-text .button-primary {
     margin: 3.6rem auto 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .menu-mobile {
+    display: block;
+  }
+
+  .menu-links {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* HEADINGS TABLET */
+
+  .display {
+    font-size: 4.8rem;
+  }
+
+  .heading-1 {
+    font-size: 3.6rem;
+  }
+
+  .heading-2 {
+    font-size: 3.2rem;
+  }
+
+  .heading-3 {
+    font-size: 2.4rem;
+  }
+
+  .heading-4 {
+    font-size: 2rem;
+  }
+
+  /* formacoes */
+
+  .formacoes .heading-3 {
+    width: 80%;
+  }
+
+  .cursos-container .text-md {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-grid .row + .row {
+    margin-top: 2.4rem;
+  }
+
+  /* newsletter */
+
+  .newsletter-container {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  /* HEADINGS MOBILE */
+
+  .text-lg {
+    font-size: 2rem;
+  }
+
+  .text-md {
+    font-size: 1.8rem;
+  }
+
+  .depoimentos-parceiro {
+    min-width: calc((100% / 3) - 3rem);
+  }
+
+  .depoimentos-parceiros-lista {
+    animation: logo-marquee 10s linear infinite;
+  }
+
+  @keyframes logo-marquee {
+    to {
+      transform: translate3D(-233%, 0, 0);
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* slides */
+  .slide-cover {
+    padding: 28rem 2rem;
+  }
+  /* formacoes */
+
+  .formacoes {
+    padding: 9.6rem 2rem 8.2rem;
+  }
+
+  /* newsletter */
+  .form-outside-container {
+    padding: 0 1.2rem;
+  }
+
+  .newsletter-container-input input {
+    padding: 0 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .slide-cover {
+    padding: 24rem 2rem;
+  }
+
+  .slide-cover .display {
+    font-size: 4rem;
+  }
+
+  .slide-cover p {
+    width: 90%;
+  }
+  /* formacoes */
+
+  .formacoes .heading-3 {
+    width: 100%;
   }
 }
