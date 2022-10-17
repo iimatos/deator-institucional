@@ -424,6 +424,7 @@ header .container-grid {
   border-radius: 60px 0;
   box-shadow: 20px 20px 0px rgba(190, 255, 211, 0.5);
   width: 56%;
+  max-width: 65rem;
 }
 
 .home-sobre-text .button-primary {
