@@ -5,7 +5,9 @@ export default function menuMobile() {
     // const navLinks = document.querySelectorAll('.menu-link');
 
     function openMenu(e) {
-      e.preventDefault();
+      if (e.type === 'touchstart') {
+        e.preventDefault();
+      }
       menu.classList.toggle('open');
       navigation.classList.toggle('open');
       if (menu.classList.contains('open')) {
