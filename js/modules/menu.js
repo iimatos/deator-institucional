@@ -5,9 +5,9 @@ export default function menuMobile() {
     // const navLinks = document.querySelectorAll('.menu-link');
 
     function openMenu(e) {
-      if (e.type === 'touchstart') {
-        e.preventDefault();
-      }
+      // if (e.type === 'touchstart') {
+      //   e.preventDefault();
+      // }
       menu.classList.toggle('open');
       navigation.classList.toggle('open');
       if (menu.classList.contains('open')) {
@@ -24,7 +24,7 @@ export default function menuMobile() {
     }
 
     menu.addEventListener('click', openMenu);
-    menu.addEventListener('touchstart', openMenu);
+    // menu.addEventListener('touchstart', openMenu);
   }
 
   menuEvents();

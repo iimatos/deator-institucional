@@ -299,8 +299,6 @@ header .container-grid {
   color: var(--n-1);
   border-radius: 8px 0 8px 8px;
   box-shadow: 4px 20px 24px rgba(0, 0, 0, 0.4);
-  opacity: 1;
-  max-height: 60rem;
 }
 
 .menu-links.open .menu-link {
