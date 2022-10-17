@@ -13,6 +13,7 @@
   --gb-500: #74ffc5;
   --gb-600: #98ffc7;
   --gb-700: #beffd3;
+  --gb-800: #f7fff9;
   --n-1: #f8f9fa;
   --n-2: #f1f3f5;
   --n-3: #e9ecef;
@@ -98,6 +99,7 @@ input::placeholder {
 .heading-4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  letter-spacing: 0.015em;
 }
 
 .text-lg,
@@ -187,6 +189,14 @@ input::placeholder {
   width: 100%;
   max-width: 144rem;
   margin: 0 auto;
+}
+
+.strapline {
+  text-transform: uppercase;
+  color: var(--gb-200);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.6rem;
 }
 
 /* componentes */
