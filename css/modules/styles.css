@@ -230,7 +230,8 @@ header .container-grid {
   min-height: 100vh;
   color: var(--n-2);
   height: 100%;
-  background: url('../assets/images/banner-home.jpg') center;
+  background: url('../assets/images/banner-home.jpg') no-repeat center;
+  background-size: cover;
   padding-top: 32rem;
 }
 
@@ -401,7 +402,8 @@ header .container-grid {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 152rem;
+  gap: 6.4rem;
+  max-width: 144rem;
   margin: 0 auto;
 }
 
@@ -414,6 +416,17 @@ header .container-grid {
   margin-bottom: 2.4rem;
 }
 
-.home-sobre-text .text-base + .text-base {
+.home-sobre-text p + p {
   margin-top: 1.6rem;
+}
+
+.home-sobre-flex img {
+  border-radius: 60px 0;
+  box-shadow: 20px 20px 0px rgba(190, 255, 211, 0.5);
+  width: 56%;
+}
+
+.home-sobre-text .button-primary {
+  max-width: 47rem;
+  margin-top: 3.6rem;
 }

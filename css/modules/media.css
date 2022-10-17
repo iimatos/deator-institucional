@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1024px) {
+  .home-sobre-flex {
+    flex-direction: column-reverse;
+  }
+
+  .home-sobre-flex img {
+    width: 60%;
+  }
+
+  .home-sobre-text {
+    width: 90%;
+    text-align: center;
+  }
+  .home-sobre-text .button-primary {
+    margin: 3.6rem auto 0;
+  }
+}
