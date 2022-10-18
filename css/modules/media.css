@@ -1,3 +1,29 @@
+@media only screen and (max-width: 1230px) {
+  .sobre-hero {
+    padding: 0 2rem 3.6rem;
+  }
+
+  .sobre-hero .container-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 3.6rem;
+  }
+
+  .sobre-hero-text {
+    text-align: center;
+  }
+
+  .sobre-hero-text .heading-1 {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .sobre-envelope-img {
+    width: 80%;
+    margin-right: 0;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   /* SLIDES  */
 
@@ -31,6 +57,13 @@
   .menu-links {
     display: none;
   }
+
+  /* SOBRE */
+
+  .schedule-whatsapp {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -56,6 +89,8 @@
     font-size: 2rem;
   }
 
+  /* BUTTONS */
+
   /* formacoes */
 
   .formacoes .heading-3 {
@@ -63,6 +98,10 @@
   }
 
   .cursos-container .text-md {
+    width: 90%;
+  }
+
+  .sobre-informacoes .heading-3 {
     width: 90%;
   }
 }
@@ -80,6 +119,10 @@
 
   .newsletter-container {
     margin-left: 0;
+  }
+
+  .sobre-formacoes {
+    padding: 12.4rem 2rem 24.4rem;
   }
 }
 
@@ -107,9 +150,36 @@
       transform: translate3D(-233%, 0, 0);
     }
   }
+
+  /* SOBRE*/
+
+  .sobre-informacoes {
+    padding: 0 2rem 6.4rem;
+  }
+
+  .sobre-informacoes .separador {
+    margin: 4.8rem auto;
+  }
+
+  .sobre-informacoes-lista {
+    margin-top: 4.8rem;
+  }
+
+  .sobre-formacoes {
+    padding: 9.6rem 2rem 19.6rem;
+  }
+
+  .sobre-formacoes .button-primary {
+    margin: 6.4rem auto 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  /* BUTTONS */
+  .button-primary {
+    font-size: 1.8rem;
+  }
+
   /* slides */
   .slide-cover {
     padding: 28rem 2rem;
@@ -127,6 +197,17 @@
 
   .newsletter-container-input input {
     padding: 0 1.2rem;
+  }
+
+  /* SOBRE */
+
+  .sobre-hero-text .heading-1 {
+    font-size: 3.6rem;
+    max-width: 100%;
+  }
+
+  .sobre-informacoes .heading-3 {
+    width: 100%;
   }
 }
 
