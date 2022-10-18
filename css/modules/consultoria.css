@@ -1,8 +1,26 @@
 .consultoria {
   padding: 30rem 2rem 0;
   min-height: 102rem;
+  background: radial-gradient(
+    at top left,
+    rgba(152, 255, 199, 0.35),
+    rgba(152, 255, 199, 0) 50%
+  );
+}
+
+.consultoria-text {
+  max-width: 71rem;
 }
 
 .consultoria .heading-1 {
   text-transform: uppercase;
+}
+
+.consultoria-text .text-md {
+  margin-top: 2.4rem;
+}
+
+.consultoria-text .button-primary {
+  margin-top: 3.6rem;
+  max-width: 38rem;
 }
