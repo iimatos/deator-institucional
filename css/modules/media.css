@@ -153,8 +153,24 @@
 
   /* SOBRE*/
 
+  .sobre-informacoes {
+    padding: 0 2rem 6.4rem;
+  }
+
+  .sobre-informacoes .separador {
+    margin: 4.8rem auto;
+  }
+
   .sobre-informacoes-lista {
     margin-top: 4.8rem;
+  }
+
+  .sobre-formacoes {
+    padding: 9.6rem 2rem 19.6rem;
+  }
+
+  .sobre-formacoes .button-primary {
+    margin: 6.4rem auto 0;
   }
 }
 

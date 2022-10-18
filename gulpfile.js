@@ -52,7 +52,7 @@ function buildSCSS() {
 function buildCSS() {
   return gulp
     .src('./css/modules/*.css')
-    .pipe(order(['styles.css', 'sobre.css', 'media.css']))
+    .pipe(order(['styles.css', 'sobre.css', 'consultoria.css', 'media.css']))
     .pipe(concat('style.min.css'))
     .pipe(clean())
     .pipe(autoprefixer())
