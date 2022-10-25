@@ -9,8 +9,10 @@ export default function Slide() {
     };
 
     const carousel = new Splide('.splide', options);
+    const carouselTwo = new Splide('.splide-two', options);
 
     carousel.mount();
+    carouselTwo.mount();
   }
 
   window.addEventListener('load', createSlide);

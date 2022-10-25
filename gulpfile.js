@@ -59,6 +59,7 @@ function buildCSS() {
         'consultoria.css',
         'cursos.css',
         'cursos-ofertas.css',
+        'blog.css',
         'media.css',
       ])
     )
