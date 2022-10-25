@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <meta name="description" content="" />
+    <meta property="og:url" content="http://www.example.com" />
+    <meta property="og:title" content="Website page title" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="Example" />
+    <meta property="og:image" content="http://www.example.com/image.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@your_sites_username" />
+
+    <link
+      rel="icon"
+      href="path/to/favicon-62.png"
+      sizes="62x62"
+      type="image/png"
+    />
+    <title>Deator - Cursos e Formações</title>
+  </head>
+  <body>
+    <svg
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <symbol id="icon-facebook">
+        <g clip-path="url(#clip0_569_1148)">
+          <path
+            d="M32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 23.9859 5.85094 30.6053 13.5 31.8056V20.625H9.4375V16H13.5V12.475C13.5 8.465 15.8888 6.25 19.5434 6.25C21.2934 6.25 23.125 6.5625 23.125 6.5625V10.5H21.1075C19.12 10.5 18.5 11.7334 18.5 13V16H22.9375L22.2281 20.625H18.5V31.8056C26.1491 30.6053 32 23.9859 32 16Z"
+            fill="#D2DFEE"
+          />
+        </g>
+
+        <clipPath id="clip0_569_1148">
+          <rect width="32" height="32" fill="white" />
+        </clipPath>
+      </symbol>
+
+      <symbol id="icon-instagram">
+        <path
+          d="M16 18.8C14.5 18.8 13.2 17.6 13.2 16C13.2 14.5 14.4 13.2 16 13.2C17.5 13.2 18.8 14.4 18.8 16C18.8 17.5 17.5 18.8 16 18.8Z"
+          fill="#D2DFEE"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M19.4 9.2H12.6C11.8 9.3 11.4 9.4 11.1 9.5C10.7 9.6 10.4 9.8 10.1 10.1C9.86261 10.3374 9.75045 10.5748 9.61489 10.8617C9.57916 10.9373 9.5417 11.0166 9.5 11.1C9.48453 11.1464 9.46667 11.1952 9.44752 11.2475C9.34291 11.5333 9.2 11.9238 9.2 12.6V19.4C9.3 20.2 9.4 20.6 9.5 20.9C9.6 21.3 9.8 21.6 10.1 21.9C10.3374 22.1374 10.5748 22.2495 10.8617 22.3851C10.9374 22.4209 11.0165 22.4583 11.1 22.5C11.1464 22.5155 11.1952 22.5333 11.2475 22.5525C11.5333 22.6571 11.9238 22.8 12.6 22.8H19.4C20.2 22.7 20.6 22.6 20.9 22.5C21.3 22.4 21.6 22.2 21.9 21.9C22.1374 21.6626 22.2495 21.4252 22.3851 21.1383C22.4209 21.0626 22.4583 20.9835 22.5 20.9C22.5155 20.8536 22.5333 20.8048 22.5525 20.7525C22.6571 20.4667 22.8 20.0762 22.8 19.4V12.6C22.7 11.8 22.6 11.4 22.5 11.1C22.4 10.7 22.2 10.4 21.9 10.1C21.6626 9.86261 21.4252 9.75045 21.1383 9.61488C21.0627 9.57918 20.9833 9.54167 20.9 9.5C20.8536 9.48453 20.8048 9.46666 20.7525 9.44752C20.4667 9.3429 20.0762 9.2 19.4 9.2ZM16 11.7C13.6 11.7 11.7 13.6 11.7 16C11.7 18.4 13.6 20.3 16 20.3C18.4 20.3 20.3 18.4 20.3 16C20.3 13.6 18.4 11.7 16 11.7ZM21.4 11.6C21.4 12.1523 20.9523 12.6 20.4 12.6C19.8477 12.6 19.4 12.1523 19.4 11.6C19.4 11.0477 19.8477 10.6 20.4 10.6C20.9523 10.6 21.4 11.0477 21.4 11.6Z"
+          fill="#D2DFEE"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 5C0 2.23858 2.23858 0 5 0H27C29.7614 0 32 2.23858 32 5V27C32 29.7614 29.7614 32 27 32H5C2.23858 32 0 29.7614 0 27V5ZM12.6 7.7H19.4C20.3 7.8 20.9 7.9 21.4 8.1C22 8.4 22.4 8.6 22.9 9.1C23.4 9.6 23.7 10.1 23.9 10.6C24.1 11.1 24.3 11.7 24.3 12.6V19.4C24.2 20.3 24.1 20.9 23.9 21.4C23.6 22 23.4 22.4 22.9 22.9C22.4 23.4 21.9 23.7 21.4 23.9C20.9 24.1 20.3 24.3 19.4 24.3H12.6C11.7 24.2 11.1 24.1 10.6 23.9C10 23.6 9.6 23.4 9.1 22.9C8.6 22.4 8.3 21.9 8.1 21.4C7.9 20.9 7.7 20.3 7.7 19.4V12.6C7.8 11.7 7.9 11.1 8.1 10.6C8.4 10 8.6 9.6 9.1 9.1C9.6 8.6 10.1 8.3 10.6 8.1C11.1 7.9 11.7 7.7 12.6 7.7Z"
+          fill="#D2DFEE"
+        />
+      </symbol>
+      <symbol id="cube-pattern">
+        <rect
+          x="60"
+          y="120"
+          width="60"
+          height="60"
+          transform="rotate(-90 60 120)"
+          fill="#174C4D"
+        />
+        <rect
+          y="60"
+          width="60"
+          height="60"
+          transform="rotate(-90 0 60)"
+          fill="#2A8883"
+        />
+        <rect
+          y="180"
+          width="60"
+          height="60"
+          transform="rotate(-90 0 180)"
+          fill="#BEFFD3"
+        />
+      </symbol>
+
+      <symbol id="cube-pattern-blue">
+        <g opacity="0.4">
+          <rect
+            x="211.5"
+            y="222.0"
+            width="211.0"
+            height="211.5"
+            transform="rotate(90 211.5 222.049)"
+            fill="#D2DFEE"
+          />
+          <rect
+            x="423"
+            y="433.525"
+            width="211.475"
+            height="211.5"
+            transform="rotate(90 423 433.525)"
+            fill="#121D35"
+          />
+          <rect
+            x="423"
+            y="10.6611"
+            width="211.475"
+            height="211.5"
+            transform="rotate(90 423 10.6611)"
+            fill="#1D38AA"
+          />
+        </g>
+      </symbol>
+
+      <symbol id="security">
+        <path
+          d="M36.0143 9.04286C36.3571 8.81429 36.7 8.92857 37.0429 9.15714C37.2714 9.38571 37.5 9.72857 37.5 10.0714C37.5 28.0143 29.6143 33.9571 21.9571 37.3857C21.8429 37.5 21.6143 37.5 21.5 37.5C21.3857 37.5 21.1571 37.5 21.0429 37.3857C13.3857 33.9571 5.5 28.0143 5.5 10.0714C5.5 9.72857 5.72857 9.38571 5.95714 9.15714C6.3 8.92857 6.64286 8.81429 6.98571 9.04286C11.9 10.6429 16.9286 9.38571 20.7 5.84286C21.1571 5.38571 21.8429 5.38571 22.3 5.84286C26.0714 9.38571 31.1 10.6429 36.0143 9.04286Z"
+          fill="#121D35"
+        />
+      </symbol>
+
+      <symbol id="locations">
+        <circle cx="22" cy="21" r="18" fill="#121D35" />
+        <path
+          d="M28 19C28 22.3137 23.5 28.9999 22 29C20.5 29.0001 16 22.3137 16 19C16 15.6863 18.6863 13 22 13C25.3137 13 28 15.6863 28 19Z"
+          fill="#D9D9D9"
+        />
+        <circle cx="22" cy="18" r="2" fill="#121D35" />
+      </symbol>
+
+      <symbol id="star">
+        <path
+          d="M22 2L26.2658 15.1287H40.0701L28.9022 23.2426L33.1679 36.3713L22 28.2574L10.8321 36.3713L15.0978 23.2426L3.92993 15.1287H17.7342L22 2Z"
+          fill="#121D35"
+        />
+      </symbol>
+
+      <symbol id="behavior">
+        <circle cx="22" cy="21" r="18" fill="#121D35" />
+        <path
+          d="M27.6596 23.3761C27.0621 21.9763 25.9554 20.8556 24.5633 20.2405C24.7036 20.133 24.8367 20.0164 24.9617 19.8914C25.5369 19.3158 25.9228 18.5785 26.0678 17.7778C26.2129 16.9771 26.1102 16.1512 25.7734 15.4104C25.4367 14.6696 24.8819 14.0492 24.1833 13.6321C23.4846 13.2149 22.6753 13.0208 21.8634 13.0758C21.0516 13.1307 20.2758 13.4321 19.6397 13.9396C19.0036 14.4471 18.5376 15.1366 18.3037 15.9159C18.0698 16.6953 18.0793 17.5275 18.3309 18.3014C18.5825 19.0752 19.0642 19.7539 19.7117 20.2467C18.3138 20.8739 17.204 22.0055 16.6042 23.4155C16.2928 24.1474 16.1326 24.9348 16.1333 25.7302V26.3967C16.1337 26.7503 16.2743 27.0892 16.5243 27.3392C16.7743 27.5891 17.1132 27.7298 17.4667 27.7302H26.7999C27.1534 27.7298 27.4923 27.5891 27.7423 27.3392C27.9923 27.0892 28.1329 26.7503 28.1333 26.3967V25.7071C28.1348 24.906 27.9736 24.113 27.6596 23.3761ZM20.2477 15.178C20.684 14.7417 21.2581 14.4703 21.8721 14.4098C22.4861 14.3494 23.1021 14.5038 23.6151 14.8466C24.1281 15.1894 24.5064 15.6995 24.6854 16.29C24.8645 16.8804 24.8333 17.5147 24.5971 18.0847C24.3609 18.6547 23.9344 19.1252 23.3902 19.416C22.8461 19.7068 22.2179 19.7999 21.6128 19.6795C21.0076 19.559 20.463 19.2325 20.0716 18.7555C19.6802 18.2785 19.4664 17.6806 19.4664 17.0636C19.4656 16.7133 19.5342 16.3662 19.6683 16.0426C19.8024 15.7189 19.9993 15.4251 20.2477 15.178ZM26.7999 26.3967H17.4667V25.7302C17.4662 25.1136 17.5904 24.5032 17.8317 23.9358C18.3075 22.8192 19.1925 21.9269 20.3052 21.4421C20.8724 21.1957 21.4837 21.067 22.1021 21.0636C23.0232 21.0562 23.9259 21.3214 24.6966 21.8258C25.4674 22.3302 26.0717 23.0512 26.4336 23.8983C26.6772 24.4701 26.8021 25.0855 26.8008 25.7071L26.7999 26.3967Z"
+          fill="#D9D9D9"
+        />
+      </symbol>
+    </svg>
+
+    <header>
+      <div class="container-grid">
+        <img src="assets/images/logotipo.png" alt="Deator" />
+        <nav class="menu">
+          <button
+            class="menu-mobile"
+            aria-label="Menu"
+            aria-controls="menu-links"
+            aria-expanded="false"
+          >
+            <span class="line"></span>
+          </button>
+          <ul class="menu-links">
+            <li class="menu-link">
+              <a href="/index.html" class="text-sm font-semibold">Home</a>
+            </li>
+            <li class="menu-link">
+              <a href="/deator.html" class="text-sm font-semibold">Deator</a>
+            </li>
+            <li class="menu-link">
+              <a href="/consultoria.html" class="text-sm font-semibold"
+                >Consultoria</a
+              >
+            </li>
+            <li class="menu-link">
+              <a href="/formacoes.html" class="text-sm font-semibold"
+                >Formações</a
+              >
+            </li>
+            <li class="menu-link">
+              <a href="#" class="text-sm font-semibold">Blog</a>
+            </li>
+            <li class="menu-link">
+              <a href="#" class="text-sm font-semibold">Contatos</a>
+            </li>
+            <li class="menu-link">
+              <a href="#" class="text-sm font-semibold">E-learning</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container-grid padding-banner">
+      <section class="cursos-ofertas-banner">
+        <div class="cursos-ofertas-banner-content">
+          <h1 class="heading-3">
+            Qualificação de referência através da
+            <span class="font-semibold">Deator</span>
+          </h1>
+        </div>
+      </section>
+    </div>
+
+    <main class="ofertas">
+      <section class="ofertas-grid">
+        <aside class="ofertas-filtro">
+          <h3 class="text-base">Quais áreas você busca?</h3>
+
+          <form id="#filtro-form">
+            <div class="group-filtro">
+              <input type="checkbox" id="todas" name="area" value="todas" />
+              <label for="todas">Todas</label>
+            </div>
+
+            <div class="group-filtro">
+              <input
+                type="checkbox"
+                id="comportamental"
+                name="area"
+                value="comportamental"
+              />
+              <label for="comportamental">Comportamental</label>
+            </div>
+            <div class="group-filtro">
+              <input
+                type="checkbox"
+                id="financeira"
+                name="area"
+                value="financeira"
+              />
+              <label for="financeira">Financeira</label>
+            </div>
+
+            <div class="group-filtro">
+              <input
+                type="checkbox"
+                id="seguranca"
+                name="area"
+                value="seguranca"
+              />
+              <label for="seguranca">Segurança</label>
+            </div>
+            <div class="group-filtro">
+              <input
+                type="checkbox"
+                id="agricola"
+                name="area"
+                value="agricola"
+              />
+              <label for="agricola">Agrícola e Florestal</label>
+            </div>
+            <div class="group-filtro">
+              <input
+                type="checkbox"
+                id="consultoria"
+                name="area"
+                value="consultoria"
+              />
+              <label for="consultoria">Consultoria</label>
+            </div>
+            <div class="group-filtro">
+              <input type="checkbox" id="outras" name="area" value="outras" />
+              <label for="outras">Outras áreas</label>
+            </div>
+            <div class="group-search">
+              <label for="busca-nome">Buscar por nome</label>
+              <input type="search" id="busca-nome" name="busca-nome" />
+            </div>
+          </form>
+        </aside>
+
+        <section class="all-cursos">
+          <h3 class="heading-3 font-semibold">Todos os cursos</h3>
+
+          <aside class="ofertas-filtro-mobile">
+            <form id="#filtro-form-mobile">
+              <label
+                for="filtro-options"
+                class="filtro-form-mobile-label text-base"
+                >Qual área você busca?</label
+              >
+              <select
+                name="filtro-options"
+                id="filtro-options"
+                class="filtro-form-select"
+              >
+                <option value="todas">Todas as áreas</option>
+                <option value="comportamental">Comportamental</option>
+                <option value="financas">Financeira</option>
+                <option value="seguranca">Segurança</option>
+                <option value="agricola">Agrícola e Florestal</option>
+                <option value="consultoria">Consultoria</option>
+                <option value="outras">Outras áreas</option>
+              </select>
+            </form>
+          </aside>
+
+          <div class="all-cursos-lista">
+            <article class="all-cursos-item">
+              <div class="all-cursos-item-featured-img">
+                <img
+                  src="assets/images/curso-featured-img.jpg"
+                  alt="Cadeiras ergonomicas"
+                />
+                <span class="all-cursos-tag comportamental"
+                  >Comportamental</span
+                >
+              </div>
+              <div class="all-cursos-item-content">
+                <p
+                  class="text-base font-semibold all-cursos-item-content-title"
+                >
+                  Curso de Ergonomia no Posto de Trabalho
+                </p>
+                <p class="text-sm font-semibold">
+                  Carga horária:
+                  <span class="text-sm font-normal">16 horas</span>
+                </p>
+                <p class="text-sm font-semibold">
+                  Modalidade:
+                  <span class="text-sm font-normal"
+                    >Presencial / B-learning</span
+                  >
+                </p>
+                <a href="#" class="all-cursos-item-link text-base font-semibold"
+                  >Saber mais</a
+                >
+              </div>
+            </article>
+
+            <article class="all-cursos-item">
+              <div class="all-cursos-item-featured-img">
+                <img
+                  src="assets/images/curso-featured-img.jpg"
+                  alt="Cadeiras ergonomicas"
+                />
+                <span class="all-cursos-tag financas">Finanças</span>
+              </div>
+              <div class="all-cursos-item-content">
+                <p
+                  class="text-base font-semibold all-cursos-item-content-title"
+                >
+                  Curso de Ergonomia no Posto de Trabalho
+                </p>
+                <p class="text-sm font-semibold">
+                  Carga horária:
+                  <span class="text-sm font-normal">16 horas</span>
+                </p>
+                <p class="text-sm font-semibold">
+                  Modalidade:
+                  <span class="text-sm font-normal"
+                    >Presencial / B-learning</span
+                  >
+                </p>
+                <a href="#" class="all-cursos-item-link text-base font-semibold"
+                  >Saber mais</a
+                >
+              </div>
+            </article>
+
+            <article class="all-cursos-item">
+              <div class="all-cursos-item-featured-img">
+                <img
+                  src="assets/images/curso-featured-img.jpg"
+                  alt="Cadeiras ergonomicas"
+                />
+                <span class="all-cursos-tag seguranca">Segurança</span>
+              </div>
+              <div class="all-cursos-item-content">
+                <p
+                  class="text-base font-semibold all-cursos-item-content-title"
+                >
+                  Curso de Ergonomia no Posto de Trabalho
+                </p>
+                <p class="text-sm font-semibold">
+                  Carga horária:
+                  <span class="text-sm font-normal">16 horas</span>
+                </p>
+                <p class="text-sm font-semibold">
+                  Modalidade:
+                  <span class="text-sm font-normal"
+                    >Presencial / B-learning</span
+                  >
+                </p>
+                <a href="#" class="all-cursos-item-link text-base font-semibold"
+                  >Saber mais</a
+                >
+              </div>
+            </article>
+
+            <article class="all-cursos-item">
+              <div class="all-cursos-item-featured-img">
+                <img
+                  src="assets/images/curso-featured-img.jpg"
+                  alt="Cadeiras ergonomicas"
+                />
+                <span class="all-cursos-tag outros">Outros</span>
+              </div>
+              <div class="all-cursos-item-content">
+                <p
+                  class="text-base font-semibold all-cursos-item-content-title"
+                >
+                  Curso de Ergonomia no Posto de Trabalho
+                </p>
+                <p class="text-sm font-semibold">
+                  Carga horária:
+                  <span class="text-sm font-normal">16 horas</span>
+                </p>
+                <p class="text-sm font-semibold">
+                  Modalidade:
+                  <span class="text-sm font-normal"
+                    >Presencial / B-learning</span
+                  >
+                </p>
+                <a href="#" class="all-cursos-item-link text-base font-semibold"
+                  >Saber mais</a
+                >
+              </div>
+            </article>
+
+            <article class="all-cursos-item">
+              <div class="all-cursos-item-featured-img">
+                <img
+                  src="assets/images/curso-featured-img.jpg"
+                  alt="Cadeiras ergonomicas"
+                />
+                <span class="all-cursos-tag agricola">Agrícola e Floresta</span>
+              </div>
+              <div class="all-cursos-item-content">
+                <p
+                  class="text-base font-semibold all-cursos-item-content-title"
+                >
+                  Curso de Ergonomia no Posto de Trabalho
+                </p>
+                <p class="text-sm font-semibold">
+                  Carga horária:
+                  <span class="text-sm font-normal">16 horas</span>
+                </p>
+                <p class="text-sm font-semibold">
+                  Modalidade:
+                  <span class="text-sm font-normal"
+                    >Presencial / B-learning</span
+                  >
+                </p>
+                <a href="#" class="all-cursos-item-link text-base font-semibold"
+                  >Saber mais</a
+                >
+              </div>
+            </article>
+
+            <article class="all-cursos-item">
+              <div class="all-cursos-item-featured-img">
+                <img
+                  src="assets/images/curso-featured-img.jpg"
+                  alt="Cadeiras ergonomicas"
+                />
+                <span class="all-cursos-tag consultorias">Consultoria</span>
+              </div>
+              <div class="all-cursos-item-content">
+                <p
+                  class="text-base font-semibold all-cursos-item-content-title"
+                >
+                  Curso de Ergonomia no Posto de Trabalho
+                </p>
+                <p class="text-sm font-semibold">
+                  Carga horária:
+                  <span class="text-sm font-normal">16 horas</span>
+                </p>
+                <p class="text-sm font-semibold">
+                  Modalidade:
+                  <span class="text-sm font-normal"
+                    >Presencial / B-learning</span
+                  >
+                </p>
+                <a href="#" class="all-cursos-item-link text-base font-semibold"
+                  >Saber mais</a
+                >
+              </div>
+            </article>
+
+            <article class="all-cursos-item">
+              <div class="all-cursos-item-featured-img">
+                <img
+                  src="assets/images/curso-featured-img.jpg"
+                  alt="Cadeiras ergonomicas"
+                />
+                <span class="all-cursos-tag comportamental"
+                  >Comportamental</span
+                >
+              </div>
+              <div class="all-cursos-item-content">
+                <p
+                  class="text-base font-semibold all-cursos-item-content-title"
+                >
+                  Curso de Ergonomia no Posto de Trabalho
+                </p>
+                <p class="text-sm font-semibold">
+                  Carga horária:
+                  <span class="text-sm font-normal">16 horas</span>
+                </p>
+                <p class="text-sm font-semibold">
+                  Modalidade:
+                  <span class="text-sm font-normal"
+                    >Presencial / B-learning</span
+                  >
+                </p>
+                <a href="#" class="all-cursos-item-link text-base font-semibold"
+                  >Saber mais</a
+                >
+              </div>
+            </article>
+
+            <article class="all-cursos-item">
+              <div class="all-cursos-item-featured-img">
+                <img
+                  src="assets/images/curso-featured-img.jpg"
+                  alt="Cadeiras ergonomicas"
+                />
+                <span class="all-cursos-tag comportamental"
+                  >Comportamental</span
+                >
+              </div>
+              <div class="all-cursos-item-content">
+                <p
+                  class="text-base font-semibold all-cursos-item-content-title"
+                >
+                  Curso de Ergonomia no Posto de Trabalho
+                </p>
+                <p class="text-sm font-semibold">
+                  Carga horária:
+                  <span class="text-sm font-normal">16 horas</span>
+                </p>
+                <p class="text-sm font-semibold">
+                  Modalidade:
+                  <span class="text-sm font-normal"
+                    >Presencial / B-learning</span
+                  >
+                </p>
+                <a href="#" class="all-cursos-item-link text-base font-semibold"
+                  >Saber mais</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-grid">
+        <img src="assets/images/logotipo-white.png" alt="Deator" />
+
+        <section class="footer-blocks">
+          <div class="block">
+            <ul class="block-links">
+              <li class="text-base font-semibold"><a href="#">Sobre nós</a></li>
+              <li class="text-base"><a href="#">Endereço</a></li>
+              <li class="text-base"><a href="">Blog</a></li>
+              <li class="text-base"><a href="">E-learning</a></li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <ul class="block-links">
+              <li class="text-base font-semibold">
+                <a href="#">Ser Formador</a>
+              </li>
+              <li class="text-base"><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <ul class="block-links">
+              <li class="text-base font-semibold">
+                <a href="#">Academia Deator</a>
+              </li>
+              <li class="text-base"><a href="#">Cursos para Empresa</a></li>
+              <li class="text-base"><a href="#">Consultoria</a></li>
+            </ul>
+          </div>
+
+          <div class="block block-redes">
+            <ul class="block-links">
+              <li class="text-base font-semibold">Redes</li>
+              <li class="block-redes-icons">
+                <a href="#">
+                  <svg width="32px" height="32px">
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg width="32px" height="32px">
+                    <use xlink:href="#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <aside class="form-outside-container">
+        <form id="form-newsletter">
+          <div class="newsletter-container">
+            <h2 class="heading-3 font-semibold">NEWSLETTER</h2>
+            <p class="text-base">
+              Cadastra-se na nossa newsletter para receber novidades.
+            </p>
+            <div class="newsletter-container-input">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+                required
+              />
+              <button>Inscrever</button>
+            </div>
+          </div>
+        </form>
+      </aside>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

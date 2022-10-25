@@ -1,0 +1,189 @@
+.cursos-intro {
+  padding: 17rem 2rem 9.6rem;
+  min-height: 84rem;
+  background: url(../assets/images/pattern-sup.svg) no-repeat center right;
+  position: relative;
+}
+
+.cursos-heading {
+  display: flex;
+  gap: 12rem;
+  align-items: center;
+}
+
+.cursos-heading-content {
+  max-width: 77rem;
+}
+
+.cursos-heading .heading-1 {
+  color: var(--b-200);
+}
+
+.cursos-heading .strapline {
+  color: var(--b-300);
+}
+
+/* card-intro */
+
+.cursos-intro-cards {
+  margin-top: 12.7rem;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cursos-intro-card {
+  display: flex;
+  flex: 0 1 60rem;
+  color: var(--b-100);
+  border: 1px solid var(--b-700);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.cursos-intro-card img {
+  width: 50%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.cursos-intro-card-content {
+  padding: 2.4rem;
+}
+
+.cursos-intro-card-title {
+  border-bottom: 2px solid var(--b-700);
+  padding-bottom: 0.6rem;
+}
+
+.cursos-intro-card-desc {
+  margin: 2.4rem 0 0;
+}
+
+.cursos-intro-card-link {
+  display: block;
+  margin: 2.4rem 0 0;
+  color: var(--b-400);
+}
+
+/* plano 40 */
+
+.curso-plano {
+  background: linear-gradient(
+    to bottom,
+    rgb(243, 249, 255),
+    rgba(243, 249, 255, 0%)
+  );
+  padding: 6.4rem 2rem 9.6rem;
+  border-radius: 60px 60px 0 0;
+}
+
+.curso-plano .container-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 6.4rem;
+}
+
+.curso-plano-content {
+  width: 43.75%;
+}
+
+.curso-plano-content > .heading-2 {
+  color: var(--b-300);
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+
+.curso-plano-content > p {
+  color: var(--b-100);
+}
+
+.curso-plano-content > p + p {
+  margin-top: 1.2rem;
+}
+
+.curso-plano .container-grid img {
+  align-self: baseline;
+}
+
+/* planos lista */
+
+.plano-opcao {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+  text-transform: uppercase;
+  color: var(--b-100);
+}
+
+.curso-plano-opcoes .button-primary-blue {
+  max-width: 37rem;
+  margin-top: 3.6rem;
+}
+
+/* icons */
+.plano-opcao-icon {
+  min-width: 43px;
+  max-width: 43px;
+  height: 43px;
+}
+
+/* academia */
+
+.academia-deator .container-grid {
+  border-top: 1px solid var(--b-700);
+  padding: 6.4rem 2rem 22.4rem;
+}
+
+.academia-deator .heading-2 {
+  text-transform: uppercase;
+  color: var(--b-300);
+  text-align: center;
+}
+
+.academia-deator p {
+  text-align: center;
+  max-width: 69rem;
+  margin: 2.4rem auto 0;
+}
+
+.academia-lista {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin: 4.8rem 0 0 0;
+  flex-wrap: wrap;
+}
+
+.academia-lista-item {
+  text-align: center;
+  background: var(--b-300);
+  color: var(--b-700);
+  border-radius: 8px;
+  max-width: 24rem;
+  flex: 1 1 20rem;
+  text-transform: uppercase;
+}
+
+.academia-lista-item a {
+  display: block;
+  padding: 1.6rem;
+}
+
+.academia-lista-item:nth-of-type(2) {
+  background: #440968;
+  color: #f0d9ff;
+}
+
+.academia-lista-item:nth-of-type(3) {
+  background: var(--gb-300);
+  color: var(--gb-800);
+}
+
+.academia-lista-item:nth-of-type(4) {
+  background: #ff7918;
+  color: #ffeddf;
+}

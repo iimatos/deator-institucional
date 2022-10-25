@@ -43,6 +43,7 @@ h3,
 h4,
 h5 {
   font-family: 'Roboto', sans-serif;
+  font-weight: inherit;
 }
 
 body {
@@ -169,6 +170,10 @@ input::placeholder {
   font-weight: 500;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -212,6 +217,10 @@ input::placeholder {
   border-radius: 1.6rem;
   font-weight: 600;
   letter-spacing: 0.015em;
+}
+
+.button-primary-blue {
+  background: var(--b-400);
 }
 
 .button-service {

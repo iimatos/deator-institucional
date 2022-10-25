@@ -22,6 +22,31 @@
     width: 80%;
     margin-right: 0;
   }
+
+  /* consultoria */
+
+  .consultoria {
+    padding: 12rem 2rem 22.4rem;
+  }
+
+  .consultoria .container-grid {
+    flex-direction: column;
+  }
+
+  .consultoria-text {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .consultoria-text .button-primary {
+    margin: 3.6rem auto 0;
+  }
+
+  .consultoria img {
+    width: 65%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -46,6 +71,53 @@
   }
   .home-sobre-text .button-primary {
     margin: 3.6rem auto 0;
+  }
+
+  /* cursos-geral */
+
+  .cursos-heading {
+    flex-direction: column;
+    gap: 3.6rem;
+    align-items: flex-start;
+  }
+
+  .curso-plano {
+    border-radius: 30px 30px 0 0;
+  }
+
+  .curso-plano .container-grid {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 4.8rem;
+  }
+
+  .curso-plano .container-grid img {
+    align-self: center;
+  }
+
+  .curso-plano-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  /* cursos-ofertas */
+
+  .ofertas-filtro {
+    display: none;
+  }
+
+  .ofertas-filtro-mobile {
+    display: block;
+  }
+
+  .ofertas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .all-cursos-lista {
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    justify-items: center;
   }
 }
 
@@ -124,6 +196,17 @@
   .sobre-formacoes {
     padding: 12.4rem 2rem 24.4rem;
   }
+
+  /* consultoria */
+
+  .consultoria-text {
+    width: 100%;
+  }
+
+  .consultoria img {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 560px) {
@@ -172,6 +255,31 @@
   .sobre-formacoes .button-primary {
     margin: 6.4rem auto 0;
   }
+
+  /* CURSOS-GERAL */
+
+  .cursos-intro {
+    background: none;
+    padding: 12rem 2rem 9.6rem;
+  }
+
+  .cursos-intro-cards {
+    margin-top: 6.4rem;
+  }
+
+  .cursos-intro-card {
+    flex-direction: column;
+  }
+
+  .cursos-intro-card img {
+    width: 100%;
+    height: 30rem;
+  }
+
+  /*  CURSOS OFERTAS */
+  .cursos-ofertas-banner-content h1 {
+    margin-left: 3.6rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -208,6 +316,21 @@
 
   .sobre-informacoes .heading-3 {
     width: 100%;
+  }
+
+  /* cursos-ofertas */
+
+  .cursos-ofertas-banner-content {
+    align-items: flex-start;
+    padding: 4.8rem 1.6rem;
+  }
+
+  .cursos-ofertas-banner-content h1 {
+    margin: 0;
+  }
+
+  .filtro-form-select {
+    margin-top: 1.2rem;
   }
 }
 

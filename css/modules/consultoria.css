@@ -1,5 +1,5 @@
 .consultoria {
-  padding: 30rem 2rem 0;
+  padding: 30rem 2rem 22.4rem;
   min-height: 102rem;
   background: radial-gradient(
     at top left,
@@ -9,7 +9,7 @@
 }
 
 .consultoria-text {
-  max-width: 71rem;
+  max-width: 50%;
 }
 
 .consultoria .heading-1 {
@@ -23,4 +23,24 @@
 .consultoria-text .button-primary {
   margin-top: 3.6rem;
   max-width: 38rem;
+}
+
+.consultoria .container-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.consultoria img {
+  width: 45%;
+  border-radius: 60px 0 60px 0;
+  box-shadow: 30px 30px 0 rgba(152, 255, 199, 0.35);
+}
+
+.lista-consultorias {
+  padding: 0 2rem 40rem;
+}
+
+.lista-consultorias .heading-3 {
+  text-transform: uppercase;
 }
